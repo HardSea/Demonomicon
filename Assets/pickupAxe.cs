@@ -5,17 +5,12 @@ using UnityEngine.EventSystems;
 
 
 
-public class pickupAxe : MonoBehaviour, IPointerClickHandler
+public class pickupAxe : MonoBehaviour
 {
-    public GameObject go;
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
+    
 
-        Debug.Log("Clicked!");
-        Destroy(go);
 
-    }
 
    
 }
